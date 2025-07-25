@@ -1,0 +1,148 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f41b1a86-714e-49af-a124-d4a0d864ab97")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 31.75 54.61)
+		(size 73.66 81.28)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c2c977e-1ee2-4077-8be0-f74af5fa8b89")
+		(property "Sheetname" "USB Stuff"
+			(at 31.75 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB Stuff.kicad_sch"
+			(at 31.75 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB_PD_JB"
+				(path "/f41b1a86-714e-49af-a124-d4a0d864ab97"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 54.61)
+		(size 71.12 81.28)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b4db23b-c608-4020-900c-63d3981f0f81")
+		(property "Sheetname" "STM32G0"
+			(at 111.76 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32G0.kicad_sch"
+			(at 111.76 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB_PD_JB"
+				(path "/f41b1a86-714e-49af-a124-d4a0d864ab97"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 54.61)
+		(size 71.12 81.28)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e66c4d55-67b0-4759-b9f9-fc053ff06a54")
+		(property "Sheetname" "Power and LEDs"
+			(at 187.96 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 187.96 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 187.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "USB_PD_JB"
+				(path "/f41b1a86-714e-49af-a124-d4a0d864ab97"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

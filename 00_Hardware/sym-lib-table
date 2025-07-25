@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STL6P3LLH6")(type "KiCad")(uri "${KIPRJMOD}/00_Hardware/Project_Symbols/STL6P3LLH6.kicad_sym")(options "")(descr ""))
+  (lib (name "ESDA25P35-1U1M")(type "KiCad")(uri "${KIPRJMOD}/00_Hardware/Project_Symbols/ESDA25P35-1U1M.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX17048G+T10")(type "KiCad")(uri "${KIPRJMOD}/00_Hardware/Project_Symbols/MAX17048G+T10.kicad_sym")(options "")(descr ""))
+  (lib (name "NRF52840_QFAA_R7")(type "KiCad")(uri "${KIPRJMOD}/00_Hardware/Project_Symbols/NRF52840_QFAA_R7.kicad_sym")(options "")(descr ""))
+  (lib (name "ESDA25W")(type "KiCad")(uri "${KIPRJMOD}/00_Hardware/Project_Symbols/ESDA25W.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS560430X3FDBVR")(type "KiCad")(uri "${KIPRJMOD}/Project_Symbols/TPS560430X3FDBVR.kicad_sym")(options "")(descr ""))
+)
