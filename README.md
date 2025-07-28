@@ -1,8 +1,7 @@
 # USB-C PD Power Meter and Debug Tool
 
-This project is a compact, professional-grade USB-C Power Delivery (PD) debug tool and power meter. Not finished yet tho. 
-It’s designed to showcase modern hardware stuffs (USB-C, PD negotiation, embedded control, current/voltage sensing) and produce a **fully manufacturable, assembled board** 
-
+This project is a compact, professional-grade USB-C Power Delivery (PD) debug tool and power meter. **Not finished yet tho.**
+It’s designed to showcase modern hardware stuffs (USB-C, PD negotiation, embedded control, current/voltage sensing).
 ---
 
 ## Features
