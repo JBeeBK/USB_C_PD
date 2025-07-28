@@ -21,7 +21,7 @@ It’s designed to showcase modern hardware stuffs (USB-C, PD negotiation, embed
 
 - **Schematic completed** (`00_Hardware`).  
 - **First-round PCB layout completed** (see image below).  
-- Firmware and assembly guide are next steps.
+- full check and BOM completion are next
 
 ---
 
@@ -33,13 +33,13 @@ It’s designed to showcase modern hardware stuffs (USB-C, PD negotiation, embed
 ---
 
 ## Repository Structure
-00_Hardware/ # KiCad schematic, PCB, footprints, symbols
-01_Docs/ # Design notes, app notes, calculations
-02_Datasheets/ # Datasheets here
-03_Output_PCB/ # Gerbers
-04_Output_Assembly/ # Board renders and fabrication files
-USB_PD_JB-backups/ # Auto-saved KiCad backups
-output generator python script
-README.md
-.gitignore
+- 00_Hardware/ # KiCad schematic, PCB, footprints, symbols.
+- 01_Docs/ # Design notes, app notes, calculations.
+- 02_Datasheets/ # Datasheets here.
+- 03_Output_PCB/ # Gerbers.
+- 04_Output_Assembly/ # Board renders and fabrication files.
+- USB_PD_JB-backups/ # Auto-saved KiCad backups
+- output generator python script
+- README.md
+- .gitignore
 
