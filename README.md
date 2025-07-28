@@ -1,6 +1,6 @@
 # USB-C PD Power Meter and Debug Tool
 
-This project is a compact, professional-grade USB-C Power Delivery (PD) debug tool and power meter.  
+This project is a compact, professional-grade USB-C Power Delivery (PD) debug tool and power meter. Not finished yet tho. 
 It’s designed to showcase modern hardware stuffs (USB-C, PD negotiation, embedded control, current/voltage sensing) and produce a **fully manufacturable, assembled board** 
 
 ---
@@ -34,4 +34,13 @@ It’s designed to showcase modern hardware stuffs (USB-C, PD negotiation, embed
 ---
 
 ## Repository Structure
+00_Hardware/ # KiCad schematic, PCB, footprints, symbols
+01_Docs/ # Design notes, app notes, calculations
+02_Datasheets/ # Datasheets here
+03_Output_PCB/ # Gerbers
+04_Output_Assembly/ # Board renders and fabrication files
+USB_PD_JB-backups/ # Auto-saved KiCad backups
+output generator python script
+README.md
+.gitignore
 
