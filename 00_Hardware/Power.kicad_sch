@@ -613,190 +613,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Shunt"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Shunt"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Shunt resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res shunt resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*Shunt*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Shunt_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Shunt_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_USB:FT234XD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2163,6 +1979,16 @@
 		)
 		(uuid "966249cc-5e82-447d-80db-4c4174dfd54c")
 	)
+	(text "GND BOTH ADD = 0x28"
+		(exclude_from_sim no)
+		(at 255.27 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b38333f7-7170-411c-85e6-bd5971de29a3")
+	)
 	(text "USB UART Bridge"
 		(exclude_from_sim no)
 		(at 158.242 192.278 0)
@@ -2228,6 +2054,12 @@
 		(uuid "6ccf1e8b-69a5-43fd-b5f7-4878f41e67bd")
 	)
 	(junction
+		(at 194.31 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bc56e69-6f6d-46c5-b4b1-4339caa7d6b9")
+	)
+	(junction
 		(at 59.69 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2262,6 +2094,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa963219-5ff3-454b-828b-68a66b308af3")
+	)
+	(junction
+		(at 194.31 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c247f458-aeb6-4732-b3e0-1b027dba7b00")
 	)
 	(junction
 		(at 49.53 113.03)
@@ -2413,6 +2251,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 55.88) (xy 198.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2540a52c-7dd4-4433-b094-2843a98a3547")
+	)
+	(wire
+		(pts
 			(xy 198.12 48.26) (xy 223.52 48.26)
 		)
 		(stroke
@@ -2430,6 +2278,16 @@
 			(type default)
 		)
 		(uuid "27a40f45-0139-4c42-a0af-88190e3e09fe")
+	)
+	(wire
+		(pts
+			(xy 198.12 45.72) (xy 194.31 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c79004c-8fc8-4b1f-9f17-ee53e8e16fac")
 	)
 	(wire
 		(pts
@@ -2510,6 +2368,16 @@
 			(type default)
 		)
 		(uuid "4ff5de95-2081-4457-9428-9ac6c12f235b")
+	)
+	(wire
+		(pts
+			(xy 194.31 54.61) (xy 194.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53547097-4737-4edd-a7d0-5da2cdd17efa")
 	)
 	(wire
 		(pts
@@ -2783,6 +2651,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 48.26) (xy 198.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1eb4bfb-03fb-42cb-a599-7e73fe3eeddb")
+	)
+	(wire
+		(pts
 			(xy 138.43 52.07) (xy 133.35 52.07)
 		)
 		(stroke
@@ -2963,6 +2841,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 45.72) (xy 194.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ec6dee-28ed-4184-a35d-2e0ad4a0feed")
+	)
+	(wire
+		(pts
 			(xy 62.23 156.21) (xy 77.47 156.21)
 		)
 		(stroke
@@ -3110,6 +2998,16 @@
 			(type default)
 		)
 		(uuid "fe0ab9c3-455a-42b1-b27d-20834eff0dad")
+	)
+	(wire
+		(pts
+			(xy 198.12 53.34) (xy 198.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4b42c5-65e0-4cf1-a0a0-c171b05b1afb")
 	)
 	(wire
 		(pts
@@ -3588,7 +3486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Shunt")
+		(lib_id "Device:R")
 		(at 194.31 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3598,21 +3496,21 @@
 		(fields_autoplaced yes)
 		(uuid "393a9bcf-a406-4c07-ab91-5f4c66562dbc")
 		(property "Reference" "R26"
-			(at 191.77 49.5299 0)
+			(at 196.85 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "R_Shunt"
-			(at 191.77 52.0699 0)
+		(property "Value" "R"
+			(at 196.85 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2816_7142Metric"
@@ -3633,7 +3531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shunt resistor"
+		(property "Description" "Resistor"
 			(at 194.31 50.8 0)
 			(effects
 				(font
@@ -3663,14 +3561,8 @@
 		(pin "2"
 			(uuid "cdd34318-c35b-407f-9d54-079c0f6a3acc")
 		)
-		(pin "4"
-			(uuid "8c8af604-fc64-417f-a64e-bb3e8f7582b2")
-		)
 		(pin "1"
 			(uuid "75e459a4-ac3b-48a0-8f1f-043777939a6f")
-		)
-		(pin "3"
-			(uuid "427134c5-e900-4099-82f2-debfcf3737dd")
 		)
 		(instances
 			(project ""
@@ -4748,7 +4640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.45mm_EP1.65x2.38mm"
 			(at 88.9 173.482 0)
 			(effects
 				(font
